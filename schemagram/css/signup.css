@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-box{
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.sign-up-box #sign-up-form{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-box #username, #password, #mobile, #email{
+    font-size: 14px;
+    border-radius: 5px;
+    height: 4vh;
+    width: 18vw;
+    padding: 10px;
+    margin-bottom: 1vh;
+}
+
+.sign-up-box #sign-up-btn{
+    font-size: 16px;
+    border-radius: 5px;
+    height: 4vh;
+    width: 18vw;
+    background-color: #4cb5f9;
+    color: whitesmoke;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up-box h3{
+    font-family: "Pacifico";
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+}
+
+.sign-up-box .banner{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: grey;
+    font-size: 16px;
+}
+
+p{
+    margin-top: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+}
+
+.login-box{
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.login-instead{
+    padding-top: 2vh;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-right: 0.5vw;
+}
+
+.login-box a{
+    padding-top: 2vh;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4cb5f9;
+}
